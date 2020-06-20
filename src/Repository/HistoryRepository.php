@@ -57,4 +57,10 @@ class HistoryRepository
                 ':time' => $time
         ]);
     }
+
+    public function delete()
+    {
+        $sql = 'DELETE FROM histories';
+        $this->pdo->exec($sql);
+    }
 }

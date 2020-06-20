@@ -40,7 +40,6 @@ class ListCommand extends Command
      */
     public function handle()
     {
-
         $this->validateFile();
         $this->createHeader();
         if (!empty($this->option('driver'))) {
