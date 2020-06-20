@@ -7,4 +7,6 @@ return [
     Jakmall\Recruitment\Calculator\Commands\MultiplyCommand::class,
     Jakmall\Recruitment\Calculator\Commands\DevideCommand::class,
     Jakmall\Recruitment\Calculator\Commands\PowCommand::class,
+
+    Jakmall\Recruitment\Calculator\Commands\Histories\ListCommand::class,
 ];
